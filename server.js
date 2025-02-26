@@ -4,6 +4,7 @@ let dbConnect = require('./dbConnect');
 let userRoutes = require('./routes/userRoutes');
 require('dotenv').config();
 
+
 app.use(express.json());
 app.use('/api/users', userRoutes);
 
